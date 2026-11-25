@@ -16,36 +16,25 @@ Painted on the official **iniBuilds Global Jet paint kit v1.0** UV layout (7 fus
 | Exterior artwork (13 albedo textures) | **Done** — checked by rendering the paint kit's 3D model from the same camera positions as the real photos |
 | Cockpit registration placard | **Done** (`textures/Registration_ALBD.png`, the file name the kit asks for) |
 | Thumbnails (720×344, 830×260, 930×340) | **Done** |
-| Drop-in Community package | **Built on guessed names** — `community-package/`, see below |
+| Install | **Run `install/INSTALL-N45BP.bat` on the PC with the sim** — see below |
 | In-sim test | **Not done** — I have no simulator here |
 
-### The package in `community-package/` is a guess
+### Installing
 
-Copy the folder `community-package/n45bp-livery-inibuilds-global-jet` into your MSFS 2024 **Community** folder.
+1. Download the repository ZIP and extract it.
+2. Open `N45BP-GlobalJet/install` and double-click **`INSTALL-N45BP.bat`** (close MSFS first).
+3. Start MSFS 2024 → Global Jet → Configure → livery **N45BP (camo)**.
 
-The paint kit ships PSDs and a model but no template livery, and it does not say what the sim calls
-the aircraft folder, the livery `texture` folder or the texture files. A livery only loads if those
-match exactly. The package uses these guesses (all in `tools/names.json`):
+The installer finds the MSFS 2024 Community folder and anything on the PC that names the Global Jet's
+real files: an installed Global Jet livery (best — any free one from iniManager), the file lists of
+Global Jet packages, and the folders the sim creates when you fly the jet. It copies an installed
+livery's structure and `livery.cfg` (so `required_tags` and texture fallbacks match), swaps in the
+N45BP textures under that livery's real file names, and writes `N45BP-install-report.txt`.
+If nothing on the PC names the files, it falls back to guessed names.
 
-| What | Guess | Based on |
-|---|---|---|
-| Aircraft folder | `glex`, plus 15 alternates (`inibuilds_glex`, `global`, `global6000`, …) that reuse `glex`'s textures | iniBuilds' MSFS 2024 A350 lives in `SimObjects\Airplanes\A350`; GSX names profile folders company + aircraft (`microsoft-a330`, `inibuilds_glex`) |
-| Livery location | `liveries/community/N45BP/` with `livery.cfg`, `texture/`, `thumbnail/` | MSFS 2024 SDK documentation |
-| Texture names | every texture is present under 6–7 plausible names (`GLEX_EXT_ALBD--1001`, `GLEX_EXT_1001_ALBD`, `EXT_1001_ALBD`, `LIVERY_ALBD--1001`, …) | material names in the kit's 3D model, the kit's sheet labels, and the pattern of iniBuilds' A350 liveries — **least certain** |
-| Placard | `Registration_ALBD` | stated in the kit |
-| Texture format | BC7 `.PNG.DDS` with mipmaps + `.json` | the usual community livery format; the SDK itself builds `.ktx2` |
-
-Because of the duplicate names the folder is about 1.9 GB on disk. Once the real names are known it shrinks to about 300 MB.
-
-How to read the result in the sim:
-
-- **"N45BP (camo)" is not in the livery list** → the aircraft folder or livery layout is wrong.
-- **It is in the list but the aircraft looks like the default paint** → the texture names or format are wrong.
-
-Either way, send the file listing of **any one Global Jet livery already in your Community folder**
-(the ones iniManager installs are fine): the folder path from `SimObjects` down, the names of the files
-in its `texture…` folder(s), and the contents of its `livery.cfg`. Then it is: edit `tools/names.json`,
-run `python3 tools/build_package.py`.
+Textures are in the sim's native **KTX2** format (`install/files/`, built by `tools/build_ktx2.py`).
+An earlier version of this folder shipped DDS textures; MSFS 2024 native aircraft do not read DDS,
+so that package could not have worked.
 
 What the official MSFS 2024 SDK documentation does fix
 ([project structure](https://docs.flightsimulator.com/msfs2024/retail/content-configuration/modular-simobjects/modular-simobject-project-structure/),
@@ -64,6 +53,7 @@ Built packages carry textures as `.ktx2`, which the SDK's package builder produc
 
 | Folder | What |
 |---|---|
+| `install/` | The installer, the 14 KTX2 textures and thumbnails |
 | `textures/` | Final albedo textures: paint + the kit's *Details* layer + the kit's *Weathering* layer (multiply). `EXT_1001…1007` = fuselage/tail UDIMs, `ENG_L/R`, `WING_L/R_1001/1002`, plus `Registration_ALBD.png` |
 | `paintkit-sheets/` | Paint only, at the exact canvas size of each kit PSD — paste into the **Paint Here** group of `Master EXT PSD`, `Engine Master`, `Wing Master` |
 | `thumbnail/` | The three thumbnails the SDK requires |
