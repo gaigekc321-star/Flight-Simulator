@@ -1,219 +1,189 @@
 {
  "content": [
   {
-   "path": "SimObjects/Airplanes/inibuilds-aircraft-glex/liveries/community/N45BP/livery.cfg",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/livery.cfg",
    "size": 69,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds-aircraft-glex/liveries/community/N45BP/texture/texture.cfg",
-   "size": 156,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-aircraft-glex/liveries/community/N45BP/thumbnail/thumbnail.png",
-   "size": 71550,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-aircraft-glex/liveries/community/N45BP/thumbnail/thumbnail_button.png",
-   "size": 86544,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-aircraft-glex/liveries/community/N45BP/thumbnail/thumbnail_side.png",
-   "size": 102391,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-glex/liveries/community/N45BP/livery.cfg",
-   "size": 69,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-glex/liveries/community/N45BP/texture/texture.cfg",
-   "size": 156,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-glex/liveries/community/N45BP/thumbnail/thumbnail.png",
-   "size": 71550,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-glex/liveries/community/N45BP/thumbnail/thumbnail_button.png",
-   "size": 86544,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds-glex/liveries/community/N45BP/thumbnail/thumbnail_side.png",
-   "size": 102391,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/livery.cfg",
-   "size": 69,
-   "date": 134400428371074848
-  },
-  {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_ENG_L_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_L_ALBD--1001.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_ENG_L_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_L_ALBD--1001.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_ENG_R_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_L_ALBD.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_ENG_R_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_L_ALBD.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1001_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_R_ALBD--1001.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1001_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_R_ALBD--1001.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1002_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_R_ALBD.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1002_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_ENG_R_ALBD.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1003_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1001.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1003_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1001.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1004_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1002.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1004_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1002.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1005_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1003.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1005_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1003.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1006_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1004.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1006_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1004.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1007_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1005.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_EXT_1007_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1005.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_L_1001_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1006.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_L_1001_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1006.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_L_1002_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1007.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_L_1002_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_EXT_ALBD--1007.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_R_1001_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_L_ALBD--1001.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_R_1001_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_L_ALBD--1001.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_R_1002_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_L_ALBD--1002.PNG.DDS",
    "size": 22369796,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/GLEX_WING_R_1002_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_L_ALBD--1002.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/REGISTRATION_ALBD.PNG.DDS",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_R_ALBD--1001.PNG.DDS",
+   "size": 22369796,
+   "date": 134400440836770336
+  },
+  {
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_R_ALBD--1001.PNG.DDS.json",
+   "size": 134,
+   "date": 134400440836770336
+  },
+  {
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_R_ALBD--1002.PNG.DDS",
+   "size": 22369796,
+   "date": 134400440836770336
+  },
+  {
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/GLEX_WING_R_ALBD--1002.PNG.DDS.json",
+   "size": 134,
+   "date": 134400440836770336
+  },
+  {
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/REGISTRATION_ALBD.PNG.DDS",
    "size": 1398276,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/REGISTRATION_ALBD.PNG.DDS.json",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/REGISTRATION_ALBD.PNG.DDS.json",
    "size": 134,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/texture/texture.cfg",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/texture/texture.cfg",
    "size": 81,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/thumbnail/thumbnail.png",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/thumbnail/thumbnail.png",
    "size": 71550,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/thumbnail/thumbnail_button.png",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/thumbnail/thumbnail_button.png",
    "size": 86544,
-   "date": 134400428371074848
+   "date": 134400440836770336
   },
   {
-   "path": "SimObjects/Airplanes/inibuilds_glex/liveries/community/N45BP/thumbnail/thumbnail_side.png",
+   "path": "SimObjects/Airplanes/glex/liveries/community/N45BP/thumbnail/thumbnail_side.png",
    "size": 102391,
-   "date": 134400428371074848
+   "date": 134400440836770336
   }
  ]
 }

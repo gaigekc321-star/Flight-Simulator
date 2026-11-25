@@ -56,9 +56,13 @@ for n, ac in enumerate(cfg['aircraft_folders']):
     fallbacks = list(cfg['base_texture_fallbacks'])
     if n == 0:
         primary = ac
-        for src, name in cfg['textures'].items():
-            write_dds_bc7(os.path.join(ROOT, 'textures', src + '.png'), os.path.join(tex, name.upper() + '.PNG.DDS') if name != 'Registration_ALBD' else os.path.join(tex, 'REGISTRATION_ALBD.PNG.DDS'))
-            print('  wrote', name, flush=True)
+        for src, names in cfg['textures'].items():
+            names = [names] if isinstance(names, str) else names
+            first = os.path.join(tex, names[0].upper() + '.PNG.DDS')
+            write_dds_bc7(os.path.join(ROOT, 'textures', src + '.png'), first)
+            for extra in names[1:]:                      # same texture under an alternative guessed name
+                for ext in ('', '.json'): shutil.copy(first + ext, os.path.join(tex, extra.upper() + '.PNG.DDS') + ext)
+            print('  wrote', ', '.join(names), flush=True)
     else:   # alternative spelling of the aircraft folder: reuse the primary copy's textures through a fallback
         fallbacks.insert(0, '..\\..\\..\\..\\..\\%s\\liveries\\%s\\%s\\%s' % (primary, cfg['company_folder'], cfg['livery_folder'], cfg['texture_folder']))
     with open(os.path.join(tex, 'texture.cfg'), 'w', newline='\r\n') as f:

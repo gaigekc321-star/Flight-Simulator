@@ -29,9 +29,9 @@ match exactly. The package uses these guesses (all in `tools/names.json`):
 
 | What | Guess | Based on |
 |---|---|---|
-| Aircraft folder | `inibuilds_glex`, plus `inibuilds-glex` and `inibuilds-aircraft-glex` as alternates | iniBuilds' GSX profile folder name |
+| Aircraft folder | `glex` | iniBuilds' MSFS 2024 A350 lives in `SimObjects\Airplanes\A350`; GSX names profile folders company + aircraft (`microsoft-a330`, `inibuilds_glex`). The first attempt (`inibuilds_glex` etc.) did not show up in the sim |
 | Livery location | `liveries/community/N45BP/` with `livery.cfg`, `texture/`, `thumbnail/` | MSFS 2024 SDK documentation |
-| Texture names | `GLEX_EXT_1001_ALBD` … `GLEX_EXT_1007_ALBD`, `GLEX_ENG_L/R_ALBD`, `GLEX_WING_L/R_1001/1002_ALBD` | material names in the kit's 3D model — **least certain** |
+| Texture names | `GLEX_EXT_ALBD--1001` … `--1007`, `GLEX_ENG_L/R_ALBD` (also as `--1001`), `GLEX_WING_L/R_ALBD--1001/1002` | material names in the kit's 3D model + the `LIVERY_ALBD--…` pattern of iniBuilds' A350 liveries — **least certain** |
 | Placard | `Registration_ALBD` | stated in the kit |
 | Texture format | BC7 `.PNG.DDS` with mipmaps + `.json` | the usual community livery format; the SDK itself builds `.ktx2` |
 
