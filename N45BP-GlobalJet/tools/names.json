@@ -1,0 +1,26 @@
+{
+  "_note": "GUESSED. iniBuilds does not publish these names with the paint kit. Replace with the real ones from an installed Global Jet livery and rerun build_package.py.",
+  "package_folder": "n45bp-livery-inibuilds-global-jet",
+  "aircraft_folders": ["inibuilds_glex", "inibuilds-glex", "inibuilds-aircraft-glex"],
+  "company_folder": "community",
+  "livery_folder": "N45BP",
+  "livery_name": "N45BP (camo)",
+  "texture_folder": "texture",
+  "base_texture_fallbacks": ["..\\..\\..\\..\\common\\texture", "..\\..\\..\\..\\texture"],
+  "textures": {
+    "EXT_1001": "GLEX_EXT_1001_ALBD",
+    "EXT_1002": "GLEX_EXT_1002_ALBD",
+    "EXT_1003": "GLEX_EXT_1003_ALBD",
+    "EXT_1004": "GLEX_EXT_1004_ALBD",
+    "EXT_1005": "GLEX_EXT_1005_ALBD",
+    "EXT_1006": "GLEX_EXT_1006_ALBD",
+    "EXT_1007": "GLEX_EXT_1007_ALBD",
+    "ENG_L": "GLEX_ENG_L_ALBD",
+    "ENG_R": "GLEX_ENG_R_ALBD",
+    "WING_L_1001": "GLEX_WING_L_1001_ALBD",
+    "WING_L_1002": "GLEX_WING_L_1002_ALBD",
+    "WING_R_1001": "GLEX_WING_R_1001_ALBD",
+    "WING_R_1002": "GLEX_WING_R_1002_ALBD",
+    "Registration_ALBD": "Registration_ALBD"
+  }
+}

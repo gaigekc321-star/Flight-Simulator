@@ -16,19 +16,34 @@ Painted on the official **iniBuilds Global Jet paint kit v1.0** UV layout (7 fus
 | Exterior artwork (13 albedo textures) | **Done** — checked by rendering the paint kit's 3D model from the same camera positions as the real photos |
 | Cockpit registration placard | **Done** (`textures/Registration_ALBD.png`, the file name the kit asks for) |
 | Thumbnails (720×344, 830×260, 930×340) | **Done** |
-| Drop-in Community package | **Not built yet** — see below |
+| Drop-in Community package | **Built on guessed names** — `community-package/`, see below |
 | In-sim test | **Not done** — I have no simulator here |
 
-### Why there is no drop-in package yet
+### The package in `community-package/` is a guess
+
+Copy the folder `community-package/n45bp-livery-inibuilds-global-jet` into your MSFS 2024 **Community** folder.
 
 The paint kit ships PSDs and a model but no template livery, and it does not say what the sim calls
-the aircraft folder, the livery `texture` folder(s) or the texture files. A livery only loads if those
-names match exactly, so I have not guessed them.
+the aircraft folder, the livery `texture` folder or the texture files. A livery only loads if those
+match exactly. The package uses these guesses (all in `tools/names.json`):
 
-To finish, I need the file listing of **any one Global Jet livery already in your Community folder**
+| What | Guess | Based on |
+|---|---|---|
+| Aircraft folder | `inibuilds_glex`, plus `inibuilds-glex` and `inibuilds-aircraft-glex` as alternates | iniBuilds' GSX profile folder name |
+| Livery location | `liveries/community/N45BP/` with `livery.cfg`, `texture/`, `thumbnail/` | MSFS 2024 SDK documentation |
+| Texture names | `GLEX_EXT_1001_ALBD` … `GLEX_EXT_1007_ALBD`, `GLEX_ENG_L/R_ALBD`, `GLEX_WING_L/R_1001/1002_ALBD` | material names in the kit's 3D model — **least certain** |
+| Placard | `Registration_ALBD` | stated in the kit |
+| Texture format | BC7 `.PNG.DDS` with mipmaps + `.json` | the usual community livery format; the SDK itself builds `.ktx2` |
+
+How to read the result in the sim:
+
+- **"N45BP (camo)" is not in the livery list** → the aircraft folder or livery layout is wrong.
+- **It is in the list but the aircraft looks like the default paint** → the texture names or format are wrong.
+
+Either way, send the file listing of **any one Global Jet livery already in your Community folder**
 (the ones iniManager installs are fine): the folder path from `SimObjects` down, the names of the files
-in its `texture…` folder(s), and the contents of its `livery.cfg`. With that the package is a
-few minutes' work.
+in its `texture…` folder(s), and the contents of its `livery.cfg`. Then it is: edit `tools/names.json`,
+run `python3 tools/build_package.py`.
 
 What the official MSFS 2024 SDK documentation does fix
 ([project structure](https://docs.flightsimulator.com/msfs2024/retail/content-configuration/modular-simobjects/modular-simobject-project-structure/),
