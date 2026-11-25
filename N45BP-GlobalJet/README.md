@@ -29,11 +29,13 @@ match exactly. The package uses these guesses (all in `tools/names.json`):
 
 | What | Guess | Based on |
 |---|---|---|
-| Aircraft folder | `glex` | iniBuilds' MSFS 2024 A350 lives in `SimObjects\Airplanes\A350`; GSX names profile folders company + aircraft (`microsoft-a330`, `inibuilds_glex`). The first attempt (`inibuilds_glex` etc.) did not show up in the sim |
+| Aircraft folder | `glex`, plus 15 alternates (`inibuilds_glex`, `global`, `global6000`, …) that reuse `glex`'s textures | iniBuilds' MSFS 2024 A350 lives in `SimObjects\Airplanes\A350`; GSX names profile folders company + aircraft (`microsoft-a330`, `inibuilds_glex`) |
 | Livery location | `liveries/community/N45BP/` with `livery.cfg`, `texture/`, `thumbnail/` | MSFS 2024 SDK documentation |
-| Texture names | `GLEX_EXT_ALBD--1001` … `--1007`, `GLEX_ENG_L/R_ALBD` (also as `--1001`), `GLEX_WING_L/R_ALBD--1001/1002` | material names in the kit's 3D model + the `LIVERY_ALBD--…` pattern of iniBuilds' A350 liveries — **least certain** |
+| Texture names | every texture is present under 6–7 plausible names (`GLEX_EXT_ALBD--1001`, `GLEX_EXT_1001_ALBD`, `EXT_1001_ALBD`, `LIVERY_ALBD--1001`, …) | material names in the kit's 3D model, the kit's sheet labels, and the pattern of iniBuilds' A350 liveries — **least certain** |
 | Placard | `Registration_ALBD` | stated in the kit |
 | Texture format | BC7 `.PNG.DDS` with mipmaps + `.json` | the usual community livery format; the SDK itself builds `.ktx2` |
+
+Because of the duplicate names the folder is about 1.9 GB on disk. Once the real names are known it shrinks to about 300 MB.
 
 How to read the result in the sim:
 
